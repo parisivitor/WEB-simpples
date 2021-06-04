@@ -1,0 +1,166 @@
+html{
+	font: 100% sans-serif;
+}
+
+body{
+	background-color: #EDEDED;
+}
+body#pg-index a#pi, body#pg-audio a#pa,
+body#pg-video a#pv{
+cursor: default;
+background-color: #3172d5;
+font-weight: bold;
+color: #fff;
+}
+
+
+#menu ul{
+	text-align: center;
+	padding:0px;
+    margin:0px;
+    background-color: #EDEDED;
+    list-style:none;
+}
+#menu ul li{
+	padding:0px;
+    margin:0px;
+	display: inline;
+}
+#menu ul li a {
+    padding: 20px 40px;
+    display: inline-block;
+
+	font-weight: bold;
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    
+}
+
+#menu ul li a:hover {
+    background-color:rgb(49, 114, 213, 0.7);
+    color: white;
+	text-decoration: none;
+}
+
+#table {
+	
+	font-size: 20px;
+	margin: 50px;
+	background-color: rgb(59,124,224,0.83);
+}
+
+table{
+	text-align: left;
+	padding: 5px;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}
+
+#imagem  {
+    width: 500.688;
+	padding-right: 50px;
+}
+
+#nome{
+	margin-left: 15px;
+	width: 150.800;
+
+}
+
+#nome01{
+	width: 200.800;
+
+}
+
+#idade{
+	width: 200.500;
+}
+
+#idade01{
+	width: 350.500;
+}
+
+
+#espaco{
+	width: 450.500;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+
+
+
+img {
+	margin-left: 15px;
+    max-width: 100%;
+}
+
+
+.bio {
+	margin: 50px;
+	background-color: rgb(59,124,224,0.83);
+	padding: 2%;
+}
+
+.form {
+	margin: 50px;
+	background-color: rgb(59,124,224,0.83);
+	padding: 2%;
+}
+
+.aud h2 {
+	padding-top:10px;
+	margin-top: 55px;
+	padding-left: 40%;
+	background-color: rgb(59,124,224,0.83);
+}
+
+.aud img{
+	padding-left: 25%;
+	padding-left: 25%;
+}
+
+audio{
+	margin-left:40%;
+}
+
+.vid h2{
+	padding-top:10px;
+	margin-top: 55px;
+	padding-left: 42%;
+	background-color: rgb(59,124,224,0.83);
+}
+
+.vid video{
+	height: 70%;
+	margin-left:38%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: rgb(59,124,224,0.75);
+  padding: 10px;
+}
+
+.grid-container > div {
+  text-align: center;
+  font-size: 30px;
+  border-left: 1px solid #ddd;
+}
+
+.footer {
+	background-color: rgb(59,124,224,0.75);
+	font-weight: bold;
+    position:absolute;
+    width:94%;
+	margin-left:50px;
+	margin-right: 50px;
+}
+
+.footer p,h4{
+	margin-left: 79%;
+	color: black;
+}
